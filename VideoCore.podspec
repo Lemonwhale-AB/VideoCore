@@ -33,8 +33,6 @@ Pod::Spec.new do |s|
 
   s.dependency          'boost', '~> 1.51.0'
   s.dependency          'glm', '~> 0.9'
-  
-  pod 'glm', :git => 'https://github.com/maxcampolo/glm.git'
   s.dependency          'UriParser-cpp', '~> 0.1.3'
 
   s.xcconfig            = { "HEADER_SEARCH_PATHS" => "${PODS_ROOT}/boost" }
